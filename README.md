@@ -1,4 +1,4 @@
-# Kaggle_IGC
+# Kaggle-competition
 
  
     ICR - Identifying Age-Related Conditions (Kaggle Competition)
