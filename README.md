@@ -74,14 +74,3 @@ Statistical Information
 
 A table was made that presents the summary statistics for the numeric features of the dataset. Each row corresponds to a specific numeric feature, and the statistics include count, mean, standard deviation, minimum, 25th percentile (Q1), median (50th percentile or Q2), 75th percentile (Q3), and maximum values.
 
-Highlight some key insights from the summary statistics:
-AB: The feature "AB" has a mean value of approximately 0.48, indicating that, on average, it falls around 0.48 units. The minimum value is 0.081, and the maximum value is 6.162. This feature appears to have some variation.
-AF: The "AF" feature represents health-related characteristics with a mean value of approximately 3502.01 and a standard deviation of 2300.32. The values range from 192.59 to 28688.19.
-AH: The "AH" feature has a relatively low standard deviation compared to the mean, suggesting that the values tend to cluster around the mean of 118.62. The minimum value is 85.20, and the maximum value is 1910.12.
-Class: The target variable "Class" is binary with values of 0 or 1. The mean of approximately 0.18 indicates that about 18% of the individuals have been diagnosed with age-related conditions (Class 1).
-EJ_B: The binary categorical feature "EJ_B" has a mean value of approximately 0.64, suggesting that about 64% of the observations fall into this category.
-Overall, the summary statistics provide valuable insights into the distribution and spread of the numeric features in the dataset. The mean, standard deviation, and quartile values offer an initial understanding of the data's central tendency and variability, which will be further explored during the data exploration phase.
-                                                         
-Class 1: The bar for Class 1 has a count of 108, which represents approximately 17.5% of the total dataset. This indicates that a minority (17.5%) of the individuals in the dataset have been diagnosed with age-related conditions.
-The class distribution is not perfectly balanced, with Class 0 being the dominant class and Class 1 being the minority class. Imbalanced class distribution can have implications on model performance, especially in binary classification tasks. We decided to balance the target variable using sampling techniques.
-
