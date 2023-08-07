@@ -50,25 +50,33 @@ By utilizing these datasets, we aim to develop a predictive model that can effec
 For a more comprehensive understanding of the datasets and to explore the detailed analysis, kindly refer to the accompanying Jupyter notebook.
 
 Libraries Used
-- Pandas: Pandas is a powerful data manipulation and analysis library. It provides data structures like dataframe and Series, which allow you to work with structured data easily. You can load, filter, transform, and analyze data using pandas.
- Numpy: numpy is a fundamental library for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently.
+Pandas: Pandas is a powerful data manipulation and analysis library. It provides data structures like dataframe and Series, which allow you to work with structured data easily. You can load, filter, transform, and analyze data using pandas.
 
-	Matplotlib: Matplotlib is a popular plotting library in Python. It allows you to create various types of plots, such as line plots, scatter plots, histograms, and more, to visualize your data and results.
+Numpy: numpy is a fundamental library for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently.
+
+Matplotlib: Matplotlib is a popular plotting library in Python. It allows you to create various types of plots, such as line plots, scatter plots, histograms, and more, to visualize your data and results.
 
   %matplotlib inline: This is a Jupyter Notebook magic command. It allows the matplotlib plots to be displayed directly within the notebook cells.
 
-•	Seaborn: Seaborn is built on top of matplotlib and provides a higher-level interface for creating attractive statistical graphics. It simplifies the process of creating complex visualizations and can enhance the default matplotlib plots.
+Seaborn: Seaborn is built on top of matplotlib and provides a higher-level interface for creating attractive statistical graphics. It simplifies the process of creating complex visualizations and can enhance the default matplotlib plots.
 
-•	Sklearn(Scikit-learn): Scikit-learn is a powerful machine learning library in Python. It provides a wide range of tools for data preprocessing, model selection, and evaluation. It includes many classification, regression, clustering, and dimensionality reduction algorithms.
+Sklearn(Scikit-learn): Scikit-learn is a powerful machine learning library in Python. It provides a wide range of tools for data preprocessing, model selection, and evaluation. It includes many classification, regression, clustering, and dimensionality reduction algorithms.
 
-•	Train_test_split: This function from `sklearn.model_selection` helps in splitting the data into training and testing sets for building and evaluating machine learning models.
-•	R2_score`, `mean_squared_error`: These are evaluation metrics from `sklearn.metrics` for regression tasks. R-squared (R2) measures the proportion of variance in the dependent variable that is predictable from the independent variables. Mean squared error (MSE) calculates the average squared difference between the predicted and actual values.
-•	Classification_report: This function from `sklearn.metrics` generates a text report showing the main classification metrics (precision, recall, F1-score, and support) for each class in a classification problem.
-•	Confusion_matrix: Also from `sklearn.metrics`, this function computes the confusion matrix to evaluate classification model performance.
-•	Precision_score, recall_score, f1_score: These functions from `sklearn.metrics` are used to compute precision, recall, and F1-score for binary or multiclass classification problems.
-•	Roc_curve, auc: These functions from `sklearn.metrics` are used for receiver operating characteristic (ROC) curve analysis to evaluate binary classification model performance. AUC (Area Under the Curve) is a metric that represents the area under the ROC curve.
-•	Precision_recall_curve, average_precision_score: These functions from `sklearn.metrics` are used for precision-recall curve analysis, which is especially useful for imbalanced classification problems.
-•	Make_scorer: This function from `sklearn. metrics` allows creating custom scoring functions for use in model evaluation during cross-validation.
+Train_test_split: This function from `sklearn.model_selection` helps in splitting the data into training and testing sets for building and evaluating machine learning models.
+
+R2_score`, `mean_squared_error`: These are evaluation metrics from `sklearn.metrics` for regression tasks. R-squared (R2) measures the proportion of variance in the dependent variable that is predictable from the independent variables. Mean squared error (MSE) calculates the average squared difference between the predicted and actual values.
+
+Classification_report: This function from `sklearn.metrics` generates a text report showing the main classification metrics (precision, recall, F1-score, and support) for each class in a classification problem.
+
+Confusion_matrix: Also from `sklearn.metrics`, this function computes the confusion matrix to evaluate classification model performance.
+
+Precision_score, recall_score, f1_score: These functions from `sklearn.metrics` are used to compute precision, recall, and F1-score for binary or multiclass classification problems.
+
+Roc_curve, auc: These functions from `sklearn.metrics` are used for receiver operating characteristic (ROC) curve analysis to evaluate binary classification model performance. AUC (Area Under the Curve) is a metric that represents the area under the ROC curve.
+
+Precision_recall_curve, average_precision_score: These functions from `sklearn.metrics` are used for precision-recall curve analysis, which is especially useful for imbalanced classification problems.
+
+Make_scorer: This function from `sklearn. metrics` allows creating custom scoring functions for use in model evaluation during cross-validation.
 Dataset
 
 Data Shape
