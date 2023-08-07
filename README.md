@@ -51,10 +51,11 @@ For a more comprehensive understanding of the datasets and to explore the detail
 
 Libraries Used
 - Pandas: Pandas is a powerful data manipulation and analysis library. It provides data structures like dataframe and Series, which allow you to work with structured data easily. You can load, filter, transform, and analyze data using pandas.
-- Numpy: numpy is a fundamental library for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently.
-- 
-•	Matplotlib: Matplotlib is a popular plotting library in Python. It allows you to create various types of plots, such as line plots, scatter plots, histograms, and more, to visualize your data and results.
-•	%matplotlib inline: This is a Jupyter Notebook magic command. It allows the matplotlib plots to be displayed directly within the notebook cells.
+ Numpy: numpy is a fundamental library for numerical computing in Python. It provides support for large, multi-dimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays efficiently.
+
+	Matplotlib: Matplotlib is a popular plotting library in Python. It allows you to create various types of plots, such as line plots, scatter plots, histograms, and more, to visualize your data and results.
+
+  %matplotlib inline: This is a Jupyter Notebook magic command. It allows the matplotlib plots to be displayed directly within the notebook cells.
 
 •	Seaborn: Seaborn is built on top of matplotlib and provides a higher-level interface for creating attractive statistical graphics. It simplifies the process of creating complex visualizations and can enhance the default matplotlib plots.
 
